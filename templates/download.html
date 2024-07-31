@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title%}Index Page{% endblock %}
+
+
+{% block content%}
+<body>
+    <h1>Download</h1>
+    <a href="{{ url_for('download', filename=filename) }}">Download File</a>
+
+</body>
+</html>
+{% endblock %}
